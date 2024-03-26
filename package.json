@@ -1,7 +1,6 @@
 {
-  "name": "backend",
+  "name": "livetools-backend",
   "version": "1.0.0",
-  "description": "",
   "main": "src/server.ts",
   "author": "Malte Hering <malte.hering@outlook.de>",
   "license": "Apache-2.0",
@@ -14,7 +13,19 @@
     "typescript": "^5.4.3"
   },
   "scripts": {
-    "start":"ts-node src/server.ts",
-    "watch":"nodemon --exec \"npm run start\" --ext ts,json --ignore node_modules --delay 250ms"
-  }
+    "start": "ts-node src/server.ts",
+    "watch": "nodemon --exec \"npm run start\" --ext ts,json --ignore node_modules --delay 250ms"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Multie/livetools-backend.git"
+  },
+  "keywords": [
+    "livetools"
+  ],
+  "bugs": {
+    "url": "https://github.com/Multie/livetools-backend/issues"
+  },
+  "homepage": "https://github.com/Multie/livetools-backend#readme",
+  "description": ""
 }
