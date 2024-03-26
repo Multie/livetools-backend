@@ -5,10 +5,13 @@
   "author": "Malte Hering <malte.hering@outlook.de>",
   "license": "Apache-2.0",
   "dependencies": {
-    "express": "^4.19.2"
-  },
-  "devDependencies": {
+    "@roarr/cli": "^5.12.4",
+    "express": "^4.19.2",
+    "livetools-plugin": "file:../livetools-plugin",
     "nodemon": "^3.1.0",
+    "roarr": "^7.21.1",
+    "sequelize": "^6.37.1",
+    "sqlite3": "^5.1.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.3"
   },
@@ -27,5 +30,9 @@
     "url": "https://github.com/Multie/livetools-backend/issues"
   },
   "homepage": "https://github.com/Multie/livetools-backend#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.30"
+  }
 }
