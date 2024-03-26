@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.ts",
+  "author": "Malte Hering <malte.hering@outlook.de>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "scripts": {
+    "start":"ts-node src/server.ts",
+    "watch":"nodemon --exec \"npm run start\" --ext ts,json --ignore node_modules --delay 250ms"
+  }
+}
